@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/* IMPORTS */
+@font-face {
+  font-family: TheWitcher;
+  src: url(../resources/fonts/Thewitcher.ttf);
+}
+
+@font-face {
+  font-family: bubbly;
+  src: url(../resources/fonts/COCKB___.TTF);
+}
+
+@font-face {
+  font-family: Decadenta;
+  src: url(../resources/fonts/Decadentafrax-lKDd.ttf);
+}
+
+@font-face {
+  font-family: Anchor;
+  src: url(../resources/fonts/Anchorsteamnf-8RMg.ttf);
+}
+
+@font-face {
+  font-family: Medelicia;
+  src: url(../resources/fonts/Medelicia-pm4Z.otf);
+}
+
+@font-face {
+  font-family: Romance;
+  src: url(../resources/fonts/RomanceFatal.ttf);
+}
+
+@font-face {
+  font-family: Blackletter;
+  src: url(../resources/fonts/Blackletter.ttf);
+}
+
+@font-face {
+  font-family: Volkorn;
+  src: url(../resources/fonts/Volkorn.otf);
+}
+
+@font-face {
+  font-family: Catwal;
+  src: url(../resources/fonts/Catwalzhari-ywL2Y.ttf);
+}
+
+/* UTILITÁRIOS */
+.colunar {
+  border: 1px solid red;
+}
+
+.colunab {
+  border: 1px solid blue;
+}
+
+.colunag {
+  border: 1px solid green;
+}
+
+.altura {
+  height: 700px;
+}
+
+/* INÍCIO DOS ESTILOS */
+/* ROOT/GLOBAL */
+#root {
+  background-image: url("../nonuses/wallpaper_maincontent.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#root #allcont {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-image: radial-gradient(circle, #56241986, #431c1983, #2f151788, #1c0d1091, #0000008c);
+  -webkit-box-shadow: 0px 9px 21px 3px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 9px 21px 3px rgba(0, 0, 0, 0.75);
+}
+
+/* CONTEÚDO */
+/* NAVEGAÇÃO */
+#navigation .logotipo {
+  border-bottom: 1px solid white;
+}
+
+#navigation .logotipo h1 {
+  font-family: Decadenta;
+  color: white;
+  font-size: 60px;
+}
+
+#navigation .salas {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-bottom: 5%;
+  border-bottom: 1px solid white;
+}
+
+#navigation .salas h3 {
+  font-family: bubbly;
+  color: white;
+  font-size: 32px;
+  font-weight: 200;
+  margin-bottom: 10%;
+}
+
+#navigation .salas ul li {
+  font-family: Catwal;
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 3%;
+}
+
+#navigation .salas ul li i {
+  margin-right: 7%;
+}
+
+#navigation .salas button {
+  font-family: Catwal;
+  font-size: 16px;
+  border: 2px solid white;
+}
+
+#navigation .salas h4 {
+  font-family: Catwal;
+  color: white;
+  margin-top: 3%;
+}
+
+#navigation .cadlog {
+  margin-top: 5%;
+}
+
+#navigation .cadlog h5 {
+  font-family: Catwal;
+  color: white;
+  margin-top: 4%;
+}
+
+#navigation .cadlog button {
+  font-family: Catwal;
+  font-size: 18px;
+}
+
+/* FIM DA NAVEGAÇÃO */
+/* MAIN CONTENT */
+/* FRONT-PAGE */
+#maincont {
+  background-image: radial-gradient(circle, #56241986, #431c1983, #2f151788, #1c0d1091, #0000008c);
+  -webkit-box-shadow: -8px 12px 21px 3px rgba(0, 0, 0, 0.75);
+          box-shadow: -8px 12px 21px 3px rgba(0, 0, 0, 0.75);
+  padding-left: 3%;
+}
+
+#maincont .frontpg {
+  height: 580px;
+  -webkit-filter: contrast(100%);
+          filter: contrast(100%);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+#maincont .frontpg h2 {
+  font-family: Catwal;
+  color: white;
+  font-size: 40px;
+}
+/*# sourceMappingURL=style.css.map */

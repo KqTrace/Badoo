@@ -1,0 +1,150 @@
+/* IMPORTS */
+@import "fonts";
+
+/* UTILITÁRIOS */
+
+.colunar{
+    border: 1px solid red;
+}
+.colunab{
+    border: 1px solid blue;
+}
+.colunag{
+    border: 1px solid green;
+}
+.altura{
+    height: 700px;
+}
+
+/* INÍCIO DOS ESTILOS */
+
+/* ROOT/GLOBAL */
+
+#root{
+    background-image: url("../nonuses/wallpaper_maincontent.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    #allcont{
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        //background-color: #56241988;
+        background-image: radial-gradient(circle, #56241986, #431c1983, #2f151788, #1c0d1091, #0000008c);
+        //border-right: 5px solid #56241986;
+        box-shadow: 0px 9px 21px 3px rgba(0,0,0,0.75);
+
+    }
+
+}
+
+/* CONTEÚDO */
+
+/* NAVEGAÇÃO */
+
+#navigation{
+
+    .logotipo{
+
+        border-bottom: 1px solid white;
+
+        h1{
+            font-family: Decadenta;
+            color: white;
+            font-size: 60px;
+        }
+    }
+
+    .salas{
+
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-bottom: 5%;
+        border-bottom: 1px solid white;
+
+        h3{
+            font-family: bubbly;
+            color: white;
+            font-size: 32px;
+            font-weight: 200;
+            margin-bottom: 10%;
+        }
+
+        ul{
+            
+            li{
+                font-family: Catwal;
+                color: white;
+                font-size: 19px;
+                text-decoration: none;
+                list-style-type: none;
+                margin-bottom: 3%;
+
+                i{
+                    margin-right: 7%;
+                }
+            }
+            
+        }
+
+        button{
+            font-family: Catwal;
+            font-size: 16px;
+            border: 2px solid white;
+        }
+
+        h4{
+            font-family: Catwal;
+            color: white;
+            margin-top: 3%;
+        }
+
+    }
+
+    .cadlog{
+
+        margin-top: 5%;
+
+        h5{
+            font-family: Catwal;
+            color: white;
+            margin-top: 4%;
+        }
+
+        button{
+            font-family: Catwal;
+            font-size: 18px;
+        }
+    }
+}
+
+/* FIM DA NAVEGAÇÃO */
+
+/* MAIN CONTENT */
+
+/* FRONT-PAGE */
+
+#maincont{
+    background-image: radial-gradient(circle, #56241986, #431c1983, #2f151788, #1c0d1091, #0000008c);
+    box-shadow: -8px 12px 21px 3px rgba(0,0,0,0.75);
+    padding-left: 3%;
+
+
+    .frontpg{
+        //background: url(../nonuses/wallpaper_maincontent.jpg);
+        //background-repeat: no-repeat;
+        //background-position: center center;
+        height: 580px;
+        filter: contrast(100%);
+        backdrop-filter:blur(2px); 
+        h2{
+            font-family: Catwal;
+            color: white;
+            font-size: 40px;
+        }
+
+    }
+}
