@@ -1,0 +1,24 @@
+{
+  "name": "Bardo",
+  "version": "1.0.0",
+  "description": "O Bardo é um projeto de um website com o intuito do compartilhamento de recursos audiovisuais em tempo real com vários usuários presentes na sala, a partir de qualquer lugar com acesso à Internet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KqTrace/Bardo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KqTrace/Bardo/issues"
+  },
+  "homepage": "https://github.com/KqTrace/Bardo#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
