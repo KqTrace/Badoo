@@ -6,38 +6,45 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var LikeButton = function (_React$Component) {
-  _inherits(LikeButton, _React$Component);
+import React from "../react";
+import ReactDOM from "../react-dom";
+import Navigation from "../Navigation";
+import LikeButton from "../LikeButton";
 
-  function LikeButton(props) {
-    _classCallCheck(this, LikeButton);
+var FrontPage = function (_React$Component) {
+    _inherits(FrontPage, _React$Component);
 
-    var _this = _possibleConstructorReturn(this, (LikeButton.__proto__ || Object.getPrototypeOf(LikeButton)).call(this, props));
+    function FrontPage() {
+        _classCallCheck(this, FrontPage);
 
-    _this.state = { liked: false };
-    return _this;
-  }
-
-  _createClass(LikeButton, [{
-    key: 'render',
-    value: function render() {
-      var _this2 = this;
-
-      if (this.state.liked) {
-        return 'You liked this.';
-      }
-
-      return React.createElement(
-        'button',
-        { onClick: function onClick() {
-            return _this2.setState({ liked: true });
-          } },
-        'Like'
-      );
+        return _possibleConstructorReturn(this, (FrontPage.__proto__ || Object.getPrototypeOf(FrontPage)).apply(this, arguments));
     }
-  }]);
 
-  return LikeButton;
+    _createClass(FrontPage, [{
+        key: "render",
+        value: function render() {
+            return React.createElement(
+                "div",
+                { id: "allcont" },
+                React.createElement(
+                    "div",
+                    { className: "row m-0" },
+                    React.createElement(
+                        "div",
+                        { className: "col-md-2" },
+                        React.createElement(Navigation, null)
+                    ),
+                    React.createElement(
+                        "div",
+                        { className: "col-md-10 pr-0" },
+                        React.createElement(LikeButton, null)
+                    )
+                )
+            );
+        }
+    }]);
+
+    return FrontPage;
 }(React.Component);
 
-ReactDOM.render(React.createElement(LikeButton, null), document.getElementById('root'));
+ReactDOM.render(React.createElement(FrontPage, null), document.getElementById('root'));

@@ -1,4 +1,4 @@
-/*
+
 class LikeButton extends React.Component {
   constructor(props) {
     super(props);
@@ -18,6 +18,4 @@ class LikeButton extends React.Component {
   }
 }
 
-let domContainer = document.querySelector('#maincont');
-ReactDOM.render(<LikeButton />, domContainer);
-*/
+ReactDOM.render(<LikeButton/>, document.getElementById('root'));
