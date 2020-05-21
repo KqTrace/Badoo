@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/* IMPORTS */
+@font-face {
+  font-family: TheWitcher;
+  src: url(../resources/fonts/Thewitcher.ttf);
+}
+
+@font-face {
+  font-family: bubbly;
+  src: url(../resources/fonts/COCKB___.TTF);
+}
+
+@font-face {
+  font-family: Decadenta;
+  src: url(../resources/fonts/Decadentafrax-lKDd.ttf);
+}
+
+@font-face {
+  font-family: Anchor;
+  src: url(../resources/fonts/Anchorsteamnf-8RMg.ttf);
+}
+
+@font-face {
+  font-family: Medelicia;
+  src: url(../resources/fonts/Medelicia-pm4Z.otf);
+}
+
+@font-face {
+  font-family: Romance;
+  src: url(../resources/fonts/RomanceFatal.ttf);
+}
+
+@font-face {
+  font-family: Blackletter;
+  src: url(../resources/fonts/Blackletter.ttf);
+}
+
+@font-face {
+  font-family: Volkorn;
+  src: url(../resources/fonts/Volkorn.otf);
+}
+
+@font-face {
+  font-family: Catwal;
+  src: url(../resources/fonts/Catwalzhari-ywL2Y.ttf);
+}
+
+/* UTILITÁRIOS */
+.colunar {
+  border: 1px solid red;
+}
+
+.colunab {
+  border: 1px solid blue;
+}
+
+.colunag {
+  border: 1px solid green;
+}
+
+.altura {
+  height: 700px;
+}
+
+/* INÍCIO DOS ESTILOS */
+/* ROOT/GLOBAL */
+#root {
+  background-image: url("../nonuses/wallpaper_maincontent.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#root #allcont {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-image: radial-gradient(circle, #56241986, #431c1983, #2f151788, #1c0d1091, #0000008c);
+  -webkit-box-shadow: 0px 9px 21px 3px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 9px 21px 3px rgba(0, 0, 0, 0.75);
+}
+
+/* CONTEÚDO */
+/* NAVEGAÇÃO */
+#navigation .logotipo {
+  border-bottom: 1px solid white;
+}
+
+#navigation .logotipo h1 {
+  font-family: Decadenta;
+  color: white;
+  font-size: 60px;
+}
+
+#navigation .salas {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-bottom: 5%;
+  border-bottom: 1px solid white;
+}
+
+#navigation .salas h3 {
+  font-family: bubbly;
+  color: white;
+  font-size: 32px;
+  font-weight: 200;
+  margin-bottom: 10%;
+}
+
+#navigation .salas ul li {
+  font-family: Catwal;
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 3%;
+}
+
+#navigation .salas ul li i {
+  margin-right: 7%;
+}
+
+#navigation .salas button {
+  font-family: Catwal;
+  font-size: 16px;
+  border: 2px solid white;
+}
+
+#navigation .salas h4 {
+  font-family: Catwal;
+  color: white;
+  margin-top: 3%;
+}
+
+#navigation .cadlog {
+  margin-top: 5%;
+}
+
+#navigation .cadlog h5 {
+  font-family: Catwal;
+  color: white;
+  margin-top: 4%;
+}
+
+#navigation .cadlog button {
+  font-family: Catwal;
+  font-size: 18px;
+}
+
+/* FIM DA NAVEGAÇÃO */
+/* MAIN CONTENT */
+/* FRONT-PAGE */
+#maincont {
+  -webkit-box-shadow: -8px 12px 21px 3px rgba(0, 0, 0, 0.75);
+          box-shadow: -8px 12px 21px 3px rgba(0, 0, 0, 0.75);
+  -webkit-filter: contrast(100%);
+          filter: contrast(100%);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  height: 670px;
+}
+
+#maincont .headmaincont {
+  height: 240px;
+  width: 100%;
+  position: relative;
+  border: 15px solid gold;
+  -o-border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+     border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+  /*
+        h2{
+            font-family: Catwal;
+            color: white;
+            font-size: 40px;
+        }
+        */
+}
+
+#maincont .headmaincont::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background: url(../nonuses/wallpaper_maincontent3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 102%;
+  height: 109%;
+  -webkit-filter: grayscale(65%);
+          filter: grayscale(65%);
+  z-index: -1;
+}
+
+#maincont .headmaincont h2 {
+  color: white;
+  background-color: #0a1117;
+  width: 55%;
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+  border: 15px solid gold;
+  -o-border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+     border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+  font-size: 1.1em;
+  font-family: Catwel;
+}
+
+#maincont .headmaincont h2 span {
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=style.css.map */
