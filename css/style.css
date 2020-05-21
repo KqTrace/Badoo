@@ -162,7 +162,7 @@
   height: 670px;
 }
 
-#maincont .frontpg {
+#maincont .headmaincont {
   height: 240px;
   width: 100%;
   position: relative;
@@ -178,7 +178,7 @@
         */
 }
 
-#maincont .frontpg::before {
+#maincont .headmaincont::before {
   content: "";
   position: absolute;
   top: -10px;
@@ -194,7 +194,7 @@
   z-index: -1;
 }
 
-#maincont .frontpg h2 {
+#maincont .headmaincont h2 {
   color: white;
   background-color: #0a1117;
   width: 55%;
@@ -207,7 +207,7 @@
   font-family: Catwel;
 }
 
-#maincont .frontpg h2 span {
+#maincont .headmaincont h2 span {
   font-size: 1.5em;
 }
 /*# sourceMappingURL=style.css.map */
