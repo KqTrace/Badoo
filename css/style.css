@@ -45,6 +45,11 @@
   src: url(../resources/fonts/Catwalzhari-ywL2Y.ttf);
 }
 
+@font-face {
+  font-family: Beda;
+  src: url(../resources/fonts/jmhbeda.ttf);
+}
+
 /* UTILITÁRIOS */
 .colunar {
   border: 1px solid red;
@@ -159,7 +164,6 @@
           filter: contrast(100%);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
-  height: 670px;
 }
 
 #maincont .headmaincont {
@@ -209,5 +213,25 @@
 
 #maincont .headmaincont h2 span {
   font-size: 1.5em;
+}
+
+#maincont .aprmaincont {
+  font-family: Beda;
+  color: white;
+}
+
+#maincont .aprmaincont .maincontfaq {
+  border: 1px dashed red;
+  width: 75%;
+}
+
+#maincont .aprmaincont .maincontfaq h3 {
+  -webkit-clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+          clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+  background-color: black;
+  text-align: center;
+  width: 740px;
+  height: 40px;
+  text-justify: center;
 }
 /*# sourceMappingURL=style.css.map */

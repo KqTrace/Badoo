@@ -132,7 +132,6 @@
     box-shadow: -8px 12px 21px 3px rgba(0,0,0,0.75);
     filter: contrast(100%);
     backdrop-filter:blur(2px);
-    height: 670px;
 
     .headmaincont{
 
@@ -141,8 +140,6 @@
         position: relative;
         border: 15px solid gold;
         border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
-        
-
 
         &::before{
             content: "";
@@ -180,5 +177,26 @@
                 font-size: 1.5em;
             }
         }
+    }
+
+    .aprmaincont{
+        font-family: Beda;
+        //color: #f7d35d;
+        color: white;
+        //background-color: #222024;
+        //background-image: radial-gradient(circle at center, #47414c 0%, #222024 100%);
+
+        .maincontfaq{
+            border: 1px dashed red;
+            width: 75%;
+        h3{
+            clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+            background-color: black;
+            text-align: center;
+            width: 740px;
+            height: 40px;
+            text-justify: center;
+        }
+    }   
     }
 }
