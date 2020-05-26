@@ -4,7 +4,7 @@ import AprBanners from "./AprBanners"
 
 function AprMainContent(){
     return(
-        <div className="aprmaincont colunag">
+        <div className="aprmaincont">
         <AprBanners />
         </div>
     );

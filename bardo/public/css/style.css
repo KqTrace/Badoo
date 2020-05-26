@@ -228,12 +228,11 @@
 }
 
 #maincont .aprmaincont .moldura {
-  border: 1px solid blue;
   width: 100%;
   background-image: url(../resources/svgs/galhardete_novacor_old.svg);
-  background-size: 150% 150%;
-  height: 1000px;
-  background-position: center center;
+  background-size: 200% 200%;
+  height: 100%;
+  background-position: 50% 89%;
   background-repeat: no-repeat;
   -webkit-filter: contrast(120%);
           filter: contrast(120%);
@@ -241,9 +240,9 @@
 
 #maincont .aprmaincont .moldura h3 {
   position: absolute;
-  top: 17%;
+  top: 2%;
   width: 100%;
-  font-size: 3em;
+  font-size: 2.3em;
 }
 
 #maincont .aprmaincont .moldura .globe {
@@ -251,8 +250,10 @@
   position: absolute;
   display: inline-block;
   text-align: left;
-  width: 300px;
-  height: 300px;
+  width: 73%;
+  height: 30%;
+  max-width: 73%;
+  max-height: 30%;
   border-radius: 50%;
   border: 20px solid #f7dbcf;
   -webkit-box-sizing: border-box;
@@ -262,8 +263,8 @@
   overflow: hidden;
   -webkit-box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
           box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
-  top: 24%;
-  left: 24%;
+  top: 8%;
+  left: 13%;
 }
 
 #maincont .aprmaincont .moldura .globe::before, #maincont .aprmaincont .moldura .globe::after {
@@ -294,22 +295,31 @@
   background: rgba(255, 255, 255, 0.3);
 }
 
+#maincont .aprmaincont .moldura .globe .imgbanner {
+  position: absolute;
+  background-image: url(../resources/svgs/banneritemsvg1.svg);
+  top: 50px;
+  left: 50px;
+  width: 500px;
+  height: 500px;
+  z-index: 11;
+}
+
 #maincont .aprmaincont .moldura p {
-  width: 38%;
+  width: 80%;
   font-family: Volkorn;
   position: absolute;
-  top: 70%;
-  left: 30%;
+  top: 42%;
+  left: 9%;
   overflow-y: scroll;
-  height: 15%;
 }
 
 #maincont .aprmaincont .moldura p span {
   color: #c9b611;
 }
 
-#maincont .altbanneritem {
+#maincont .alturabanneritem {
+  height: 750px;
   width: 100%;
-  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

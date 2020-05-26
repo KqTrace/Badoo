@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-function AprBannerItem(){
+function AprBannerItem(props){
     return (
         <div className="moldura">
-            <h3 className="text-center">O que é o Bardo?</h3>
-            <div className="globe"></div>
-            <p className="text-justify text-center colunag">O Bardo é uma nova maneira de ouvir, assistir e compartilhar conteúdos como <span>Músicas</span>, <span>Filmes</span>, <span>Vídeos</span>, <span>Animes</span> e muito mais <span>em tempo real</span> com todos os outros presentes na sala.<br/>
-            Saiba mais clicando aqui</p>
+            <h3 className="text-center">{props.title}</h3>
+            <div className="globe">
+             <div className="imgbanner"></div>   
+            </div>
+    <p className="text-justify text-center colunag">{props.desc}</p>
         </div>
     );
 }
