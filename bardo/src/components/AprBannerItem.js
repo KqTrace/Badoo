@@ -8,7 +8,7 @@ function AprBannerItem(props){
             <div className="globe">
              <div className="imgbanner"></div>   
             </div>
-    <p className="text-justify text-center colunag">{props.desc}</p>
+    <p className="text-justify text-center">{props.desc}</p>
         </div>
     );
 }
